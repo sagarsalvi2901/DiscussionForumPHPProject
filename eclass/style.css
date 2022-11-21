@@ -1,0 +1,267 @@
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+body {
+		margin: 0;
+	padding: 0;
+	background: #C1C1C1;
+	background-image:url(images/bg2.jpg)
+	text-align: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #F1F5F8;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+
+
+
+#header h1
+{
+display:block;
+float:left;
+line-height:70px;
+margin-left:17px;
+width:230px;
+color:#FFFFFF;
+text-align:left;
+font-size:23px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+float:left;
+
+}
+
+
+#header ul {
+	padding: 0px;
+	list-style-type: none;
+	height:21px;
+	text-align:center;
+	height:85px;
+	overflow:hidden;
+}
+#header ul li , #header ul li a, #header ul li a:visited{
+	display:block;
+	float:left;
+	margin: 0px;
+	text-align:center;
+	line-height:72px;
+	width:133px;
+	color:#FFFFFF;
+
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#header ul li a:hover{
+color:#CCCCCC;
+}
+
+a{
+	color: #B40E1F;
+	}
+table {
+	
+    border:thin;
+	border-collapse: collapse;
+    width: 90%;
+}
+
+
+
+ 
+table a {
+    color: #B40E1F;
+}
+ 
+table a:hover {
+    color:#373737;
+    text-decoration: none;
+}
+ 
+th {
+	text-align:center;
+	border-color:#000;
+    background-color:#666;
+    color: #F0F0F0;
+}
+ 
+td {
+    padding: 5px;
+	word-wrap: break-word;
+}
+
+
+#main 
+{
+margin-top:10px;
+margin-bottom:10px;
+}
+
+
+#main .main_top
+{
+height:85px;
+width:921px;
+background-image:url(main_top.png);
+background-repeat:no-repeat;
+}
+
+#main .main_body
+{
+
+height:auto;
+width:921px;
+background-image:url(main_body.png);
+background-repeat:repeat-y;
+color:#000000;
+padding-bottom:20px;
+position:relative;
+margin:0 auto;
+text-align:left;
+
+padding:15px;
+
+}
+
+
+#main .main_top h1
+{
+font-size:24px;
+line-height:85px;
+color:#000000;
+padding-left:25px;
+background-image:url(header_h1_bg.png);
+background-position:right;
+background-repeat:no-repeat;
+margin-right:25px;
+}
+
+#main .main_body p
+{
+line-height:19px;
+letter-spacing:1px;
+padding-bottom:15px;
+padding-left:20px;
+padding-right:20px;
+}
+
+
+#main .main_bottom
+{
+height:8px;
+width:921px;
+background-image:url(main_bottom.png);
+background-repeat:no-repeat;
+}
+
+.holder_content1 {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top:6px;
+	margin-bottom:20px;
+	background: url(../images/line.png) 0 -18px no-repeat;
+
+	}
+#menu {
+    float: left;
+    border: 1px solid #000;      
+    clear: both;  
+	position:relative;              /* clear:both makes sure the content div doesn't float next to this one but stays under it */
+    width:90%;
+    height:20px;
+    padding: 0 30px;
+    background-color: #FFF;
+    text-align: left;
+    font-size: 85%;
+	margin-bottom:15px;
+}
+ 
+#menu a {
+	font-size: 115%;
+    color: #B40E1F;
+}
+ 
+#userbar {
+	position:relative;
+	margin-bottom:15px;
+	font-size: 110%;
+    background-color: #fff;
+    float: right;
+}	
+
+#userbar a {
+	font-size: 115%;
+	color: #B40E1F;
+}
+
+
+#page
+{
+  margin: 0 auto 0 auto; 
+  margin-top:25px;
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 921px;
+}
+
+#header
+{
+background-image:url(header.png);
+background-repeat:no-repeat;
+width:921px;
+height:72px;
+}
+
+
+
+#footer {
+display:block;
+width: 921px;
+height:74px;
+background: url(footer.png) no-repeat;
+text-align:right;
+font-size:9px;
+line-height:75px;
+}
+
+#footer p{
+padding-right:20px;
+text-align:right;
+}
+
+#footer, #footer a, #footer a:visited{
+color:#FFFFFF;
+}
+
+#footer a:hover{
+text-decoration:none;
+color:#CCCCCC;
+}
+
+.col1, .col2, .col3, .cols {
+	float:left
+}
+
+.col1 {
+	padding-left:50px;
+	width:250px;
+}
